@@ -19,51 +19,50 @@ This Python toolkit simulates attacker logic from the command line, bundling 3 m
 
 ---
 
-🚀 How to Run
-Requires: Python 3.x
-Run using terminal + flags:
+## 🚀 How to Run
 
-bash
-Copy
-Edit
+> Requires: Python 3.x  
+> Run using terminal + flags:
+
+```bash
 python hacker_toolkit_v2.py --tool 1 --username admin --wordlist pass.txt --silent  
 python hacker_toolkit_v2.py --tool 2 --output list.txt pass123 admin123 welcome1  
 python hacker_toolkit_v2.py --tool 3 --attempts 1234 hunter2 qwerty
-📂 Files Included
-hacker_toolkit_v2.py — Main CLI toolkit
 
-sample_wordlist.txt (optional) — Wordlist input/output
+## 🧪 Sample Output
 
-🧪 Sample Outputs
-🔹 Brute-force Mode (Tool 1):
-pgsql
-Copy
-Edit
+🔹 **Brute-force (Tool 1):**  
 Trying admin:pass123 ✅ Success  
 Trying admin:admin123 ❌ Failed  
-🔹 Wordlist Generator (Tool 2):
-yaml
-Copy
-Edit
+
+🔹 **Wordlist Gen (Tool 2):**  
 Generated wordlist:  
 pass123  
 admin123  
 welcome1  
-🔹 Lockout Simulator (Tool 3):
-makefile
-Copy
-Edit
+
+🔹 **Lockout Sim (Tool 3):**  
 Simulating 3 failed attempts...  
 Result: Account locked  
-🧠 Skills Demonstrated
-Command-line interface (argparse) design
 
-Automation of brute-force and lockout simulations
+---
 
-Wordlist logic and I/O file handling
+## 📁 Files Included
+- `hacker_toolkit_v2.py` — Main CLI script  
+- `sample_wordlist.txt` — Wordlist input/output (optional)  
+- `hacker_toolkit_demo.mkv` — Silent demo walkthrough (optional)  
 
-Python scripting with flags and silent mode logic
+---
 
-⚠️ Disclaimer
-This toolkit is for educational and ethical testing only.
-Do not use it on systems without proper permission.
+## 🧠 Skills Demonstrated
+- CLI design using `argparse`  
+- Brute-force logic and wordlist manipulation  
+- Silent mode simulation  
+- Lockout detection logic  
+- Ethical scripting for Red Team education  
+
+---
+
+## ⚠️ Disclaimer
+This project is for educational and ethical testing only.  
+Do not use these scripts against any system without proper authorization.
