@@ -24,9 +24,9 @@ This Python toolkit simulates attacker logic from the command line, bundling 3 m
 > Requires: Python 3.x  
 > Run using terminal + flags:
 
-python hacker_toolkit_v2.py --tool 1 --username admin --wordlist pass.txt --silent  
-python hacker_toolkit_v2.py --tool 2 --output list.txt pass123 admin123 welcome1  
-python hacker_toolkit_v2.py --tool 3 --attempts 1234 hunter2 qwerty
+python redteam_tool.py --tool 1 --username admin --wordlist pass.txt --silent  
+python redteam_tool.py --tool 2 --output list.txt pass123 admin123 welcome1  
+python redteam_tool.py --tool 3 --attempts 1234 hunter2 qwerty
 
 
 ---
@@ -49,19 +49,26 @@ Result: Account locked
 
 ---
 
-## 📁 Files Included
-- `hacker_toolkit_v2.py` — Main CLI script  
-- `sample_wordlist.txt` — Wordlist input/output (optional)  
-- `hacker_toolkit_demo.mkv` — Silent demo walkthrough (optional)  
+## 🧰 Features  
+- CLI argument handling via `sys.argv`  
+- Simulated brute-force with randomized delays  
+- Lockout logic after failed login attempts  
+- Wordlist creation from terminal input  
+- Optional `--silent` flag for quiet mode  
 
 ---
 
-## 🧠 Skills Demonstrated
-- CLI design using `argparse`  
-- Brute-force logic and wordlist manipulation  
-- Silent mode simulation  
-- Lockout detection logic  
-- Ethical scripting for Red Team education  
+## 📁 Files Included
+- `redteam_tool` — Main CLI script  
+- `sample_wordlist.txt` — Wordlist input
+
+---
+
+## 🧠 Skills Demonstrated  
+- Command-line interface scripting using `sys.argv`  
+- Automation of brute-force and lockout simulations  
+- Wordlist logic and I/O file handling  
+- Flag-based terminal UX like Red Team tools    
 
 ---
 
