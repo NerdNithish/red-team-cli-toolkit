@@ -24,10 +24,12 @@ This Python toolkit simulates attacker logic from the command line, bundling 3 m
 > Requires: Python 3.x  
 > Run using terminal + flags:
 
-```bash
 python hacker_toolkit_v2.py --tool 1 --username admin --wordlist pass.txt --silent  
 python hacker_toolkit_v2.py --tool 2 --output list.txt pass123 admin123 welcome1  
 python hacker_toolkit_v2.py --tool 3 --attempts 1234 hunter2 qwerty
+
+
+---
 
 ## 🧪 Sample Output
 
@@ -63,6 +65,6 @@ Result: Account locked
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ Disclaimer  
 This project is for educational and ethical testing only.  
 Do not use these scripts against any system without proper authorization.
