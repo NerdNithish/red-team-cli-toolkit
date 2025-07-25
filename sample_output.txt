@@ -1,0 +1,26 @@
+❌ Error: You must specify a tool using --tool argument.
+Menu Options:
+--tool 1 = brute (requires --username and --wordlist)
+--tool 2 = wordlist (requires --output and word list)
+--tool 3 = lockout (requires --attempts)
+--tool 4 = exit
+
+Example:
+python hacker_toolkit_v2.py --tool 1 --username admin --wordlist word.txt --silent
+
+python redteam_tool.py --tool 1 --username admin --wordlist sample_wordlist.txt --silent
+✅ Cracked! Password for admin: hunter2
+
+🔄 Re-run the program with a new --tool argument to continue.
+
+python redteam_tool.py --tool 2 --output list.txt pass123 admin123 welcome1
+📒 Wordlist successfully created at list.txt
+
+🔄 Re-run the program with a new --tool argument to continue.
+
+python redteam_tool.py --tool 3 --attempts 1234 hunter2 qwerty
+❌ Access denied
+❌ Access denied
+✅ Access granted
+
+🔄 Re-run the program with a new --tool argument to continue.
