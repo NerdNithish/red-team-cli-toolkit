@@ -1,6 +1,6 @@
 # 🛠️ Red Team CLI Toolkit – Python Automation for Brute-Force, Lockout & Wordlist Gen
 
-🗓️ **Date:** July 2025  
+🗓️ **Date:** May 2025  
 🧪 **Type:** Offensive Security Mini Project  
 💻 **Language:** Python  
 🎯 **Focus:** CLI-based Red Team scripts for automation, evasion, and brute-force simulation
