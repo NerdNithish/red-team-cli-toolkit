@@ -50,7 +50,7 @@ def show_help():
     print("--tool 3 = lockout (requires --attempts)")
     print("--tool 4 = exit")
     print("\nExample:")
-    print("python hacker_toolkit_v2.py --tool 1 --username admin --wordlist word.txt --silent")
+    print("python redteam_tool.py --tool 1 --username admin --wordlist word.txt --silent")
 
 args = sys.argv
 
